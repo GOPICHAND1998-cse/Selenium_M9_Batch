@@ -57,6 +57,13 @@ public class AmazonWindowSwitching
 
             driver.findElement(By.xpath("(//input[@id='add-to-cart-button'])[2]"))
                     .click();
+
+
+            Thread.sleep(2000);
+
+//            driver.close();
+
+            driver.quit();
         }
         catch (Exception e)
         {
